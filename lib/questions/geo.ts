@@ -1,6 +1,6 @@
 import type { Question } from "../types";
 
-// Conservation Geography - Weeks 0 to 12 (Week 0 has 8 questions, other weeks 10)
+// Conservation Geography - weeks 0 to 12 (Week 0 has 8 questions, the other weeks have 10)
 export const geoQuestions: Question[] = [
   // ---------- Week 0 ----------
   {
