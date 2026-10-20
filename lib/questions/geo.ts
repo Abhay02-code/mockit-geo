@@ -1,6 +1,6 @@
 import type { Question } from "../types";
 
-// Conservation Geography - weeks 0 to 12 (Week 0 has 8 questions, the other weeks have 10)
+// Conservation Geography - Weeks 0 to 12 (10 questions per week)
 export const geoQuestions: Question[] = [
   // ---------- Week 0 ----------
   {
@@ -36,6 +36,14 @@ export const geoQuestions: Question[] = [
     explanation: "",
   },
   {
+    id: "w0-q5",
+    week: 0,
+    question: "The quantum of human impacts can be written as",
+    options: ["I = P + A + T", "I = P X A + T", "I = P X A X T", "I = P + A X T"],
+    correctAnswer: 2,
+    explanation: "",
+  },
+  {
     id: "w0-q6",
     week: 0,
     question: "A large continuous forest is split by a highway into two smaller patches, each too small to support wide-ranging animals. This is:",
@@ -66,6 +74,15 @@ export const geoQuestions: Question[] = [
     options: ["translocation", "migration", "dispersal", "drifting"],
     correctAnswer: 2,
     explanation: "",
+  },
+  {
+    id: "w0-q10",
+    week: 0,
+    question: "Sustainable harvest of resources falls under the category of:",
+    options: ["conservation", "preservation", "environmentalism", "none of the above"],
+    correctAnswer: 0,
+    explanation: "",
+    noShuffle: true,
   },
   // ---------- Week 1 ----------
   {
